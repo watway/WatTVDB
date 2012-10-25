@@ -99,7 +99,7 @@ namespace WatTvdb.V1
             set
             {
                 double d;
-                if (double.TryParse(value, out d))
+                if (double.TryParse(value, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out d))
                     Rating = d;
                 else
                     Rating = null;

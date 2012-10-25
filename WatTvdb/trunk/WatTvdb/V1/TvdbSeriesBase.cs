@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
+using System.Xml;
 
 namespace WatTvdb.V1
 {
@@ -69,7 +70,7 @@ namespace WatTvdb.V1
             set
             {
                 double d;
-                if (double.TryParse(value, out d))
+                if (double.TryParse(value, System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out d))
                     Rating = d;
                 else
                     Rating = null;
