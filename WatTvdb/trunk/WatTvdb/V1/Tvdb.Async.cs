@@ -36,7 +36,7 @@ namespace WatTvdb.V1
                 {
                     var result = new TvdbAsyncResult<T>
                     {
-                        Data = resp.Data,
+                        Data = resp.Data != null ? resp.Data : default(T),
                         UserState = request.UserState
                     };
 
