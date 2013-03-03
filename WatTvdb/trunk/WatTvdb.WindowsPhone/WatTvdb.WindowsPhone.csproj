@@ -52,11 +52,23 @@
     <Reference Include="mscorlib.extensions" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\WatTvdb\V1\Tvdb.Async.cs">
-      <Link>V1\Tvdb.Async.cs</Link>
+    <Compile Include="..\WatTvdb\Tvdb\Tvdb.Async.cs">
+      <Link>Tvdb\Tvdb.Async.cs</Link>
     </Compile>
-    <Compile Include="..\WatTvdb\V1\Tvdb.cs">
-      <Link>V1\Tvdb.cs</Link>
+    <Compile Include="..\WatTvdb\Tvdb\Tvdb.cs">
+      <Link>Tvdb\Tvdb.cs</Link>
+    </Compile>
+    <Compile Include="..\WatTvdb\Utilities\Constants.cs">
+      <Link>Utilities\Constants.cs</Link>
+    </Compile>
+    <Compile Include="..\WatTvdb\Utilities\RequestBuilder.cs">
+      <Link>Utilities\RequestBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\WatTvdb\Utilities\RequestGenerator.cs">
+      <Link>Utilities\RequestGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\WatTvdb\Utilities\Utility.cs">
+      <Link>Utilities\Utility.cs</Link>
     </Compile>
     <Compile Include="..\WatTvdb\V1\TvdbActor.cs">
       <Link>V1\TvdbActor.cs</Link>

@@ -43,16 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Utility.cs" />
-    <Compile Include="V1\Tvdb.Async.cs" />
-    <Compile Include="V1\Tvdb.Sync.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\RequestBuilder.cs" />
+    <Compile Include="Utilities\RequestGenerator.cs" />
+    <Compile Include="Utilities\Utility.cs" />
+    <Compile Include="Tvdb\Tvdb.Async.cs" />
+    <Compile Include="Tvdb\Tvdb.Sync.cs" />
     <Compile Include="V1\TvdbActor.cs" />
     <Compile Include="V1\TvdbAsyncResult.cs" />
     <Compile Include="V1\TvdbBanner.cs" />
     <Compile Include="V1\TvdbEpisodes.cs" />
     <Compile Include="V1\TvdbLanguages.cs" />
     <Compile Include="V1\TvdbMirrors.cs" />
-    <Compile Include="V1\Tvdb.cs" />
+    <Compile Include="Tvdb\Tvdb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="V1\TvdbSeriesSearch.cs" />
     <Compile Include="V1\TvdbSeriesBase.cs" />
