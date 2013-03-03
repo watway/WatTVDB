@@ -11,6 +11,7 @@ namespace WatTvdb.Sample
         static void Main(string[] args)
         {
             Tvdb api = new Tvdb("apikey");
+            var mirrors = api.GetMirrors();
 
             Console.Write("Enter TV Series: ");
             var search = Console.ReadLine();
