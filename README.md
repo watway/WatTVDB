@@ -1,6 +1,8 @@
 # WatTVDB
 .NET Library for use with the XML API available from TheTVDB.com
 
+Migrated from https://wattvdb.codeplex.com/
+
 Website: http://thetvdb.com/
 API: http://thetvdb.com/wiki/index.php?title=Programmers_API
 
